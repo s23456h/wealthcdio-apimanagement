@@ -1,0 +1,19 @@
+server:
+ port: 8085
+
+spring:
+  application:
+    name: traffic-manager
+
+  datasource:
+   url: jdbc:postgresql://localhost:5432/postgres
+   username: postgres
+   password: Shivprasad1!
+   #driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+   jpa:
+    show-sql: true
+    hibernate.ddl-auto: update
+
+#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
